@@ -1,8 +1,9 @@
-import std.random;
-import std.conv;
-import std.stdio;
-import std.json;
-import std.file;
+import std.random : Random, uniform, unpredictableSeed;
+import std.conv : to;
+import std.stdio : writeln;
+import std.json : parseJSON;
+import std.file : readText;
+
 import dsfml.system;
 import dsfml.window;
 import dsfml.graphics;
