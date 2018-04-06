@@ -9,6 +9,6 @@
 	"description": "A minimal D application.",
 	"copyright": "Copyright © 2018, Alex",
 	"license": "proprietary",
-	"lflags": [],
+	"lflags": ["-L/nfs/2018/a/astrole/D/DSFMLC/lib"],
 	"targetPath": "bin"
 }

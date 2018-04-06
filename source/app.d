@@ -62,7 +62,6 @@ class Symbol
 		if (frames - this.start > 0)
 			if (uniform(0, this.chance, rng) == 0)
 				this.changeCurrent();
-		this.t.setColor(this.color);
 		if (this.color.a > rate && this.lifespan <= 0)
 			this.color.a -= rate;
 		if (this.lifespan > 0)
@@ -79,6 +78,7 @@ class Symbol
 					this.color.r -= 85;
 			}
 		}
+		this.t.setColor(this.color);
 	}
 }
 

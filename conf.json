@@ -1,6 +1,6 @@
 {
-	"charsize": 14,
-	"color": ["r", "b"],
+	"charsize": 25,
+	"color": ["g", "b"],
 	"fps": 60,
 	"showframes": 1,
 	"chance": 25,
