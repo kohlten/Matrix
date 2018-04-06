@@ -1,0 +1,10 @@
+{
+	"charsize": 14,
+	"color": ["r", "b"],
+	"fps": 60,
+	"showframes": 1,
+	"chance": 25,
+	"framestochange": 5,
+	"lifespan": 100,
+	"rate": 2
+}
