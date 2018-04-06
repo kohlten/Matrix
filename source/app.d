@@ -33,7 +33,7 @@ class Symbol
 		this.t.position(this.pos);
 		this.start = start;
 		this.colors = colors;
-		this.chance = chance;
+		this.chance = uniform(1, chance, rng);
 		this.lifespan = lifespan;
 		changeCurrent();
 	}
@@ -215,9 +215,9 @@ void main()
 	
 	while (window.isOpen())
 	{
-		//fps stuff
 		if (showFrames)
 		{
+			//fps stuff
 			auto curr = (MonoTime.currTime - time);
 			if (curr >= 1.seconds)
 			{
@@ -225,6 +225,7 @@ void main()
 				fps.setString(to!string(frames - prevFrames));
 				prevFrames = frames;
 			}
+			//total symbols stuff
 			ulong totalSymbols;
 			foreach (stream; streams)
 				totalSymbols += stream.getTotal();
