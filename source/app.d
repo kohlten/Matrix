@@ -194,7 +194,7 @@ void main()
 	Font font = new Font();
 	font.loadFromFile("Kata.ttf");
 	Text fps = new Text("", font, 40);
-	Text amount = new Text("0", font, 40);
+	Text amount = new Text("", font, 40);
 	auto time = MonoTime.currTime;
 
 	//Get the width and height of the current display
