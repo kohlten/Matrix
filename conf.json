@@ -1,10 +1,11 @@
 {
-	"charsize": 25,
-	"color": ["g", "b"],
+	"charsize": 17,
+	"color": ["g"],
 	"fps": 60,
 	"showframes": 1,
 	"chance": 25,
 	"framestochange": 5,
 	"lifespan": 100,
-	"rate": 2
+	"rate": 2,
+	"spacing": -6000
 }
