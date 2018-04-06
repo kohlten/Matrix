@@ -12,6 +12,12 @@ clean:
 	dub clean
 	-rm dub.selections.json
 	-rm -rf bin
+
+fclean: clean
 	-rm -rf .dub
 	-rm -rf DSFMLC
 	-rm -rf Frameworks
+
+re: clean $(OUT)
+
+.PHONY: clean fclean
